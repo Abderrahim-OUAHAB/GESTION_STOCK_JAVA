@@ -1,0 +1,111 @@
+.mainWindow {
+    -fx-background-image: url("background.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center;
+}
+.fen {
+    -fx-background-image: url("fen.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100% 100%;
+    
+}
+
+.menuButton {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    -fx-background-color:
+        linear-gradient(white, #375fa5),
+        radial-gradient(center 50% -40%, radius 200%, rgb(10, 200, 255), rgb(10, 200, 255));
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 5;
+    -fx-padding: 12px 32px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);
+    -fx-min-width: 150px; /* Largeur minimale du bouton */
+    -fx-max-width: 500px; /* Largeur maximale du bouton */
+    -fx-min-height: 40px; /* Hauteur minimale du bouton */
+    -fx-max-height: 60px; /* Hauteur maximale du bouton */
+    
+}
+
+.menuButton:hover {
+    -fx-background-color:
+        linear-gradient(#375fa5, #4c6db7),
+        radial-gradient(center 50% -40%, radius 200%, white, white);
+}
+
+.menuButton:pressed {
+    -fx-background-color:
+        linear-gradient(grey, grey),
+        radial-gradient(center 50% -40%, radius 200%,  #87CEEB,  #87CEEB);
+    -fx-background-insets: 0, 5;
+    -fx-translate-y: 1px;
+}
+
+.menuLabel {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-padding: 10px 0;
+}
+
+.LabelTotal {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+.table-row-cell {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+      
+}
+
+.LabelTitle {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white; /* Bleu foncé */
+    -fx-padding: 20px;
+    -fx-alignment: center;
+   
+}
+
+.LabelForm {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #87CEEB; /* Bleu plus clair */
+    -fx-padding: 10px 0;
+}
+
+
+/* styles.css */
+
+/* Style général pour le tableau de bord */
+.dashboard {
+    -fx-padding: 20px;
+    -fx-spacing: 20px;
+    -fx-background-color: #f0f0f0;
+}
+
+/* Style pour le titre du tableau de bord */
+.dashboard-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+}
+
+/* Style pour chaque graphique */
+.chart {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+}
+
+/* Style pour les labels des graphiques */
+.chart-title {
+    -fx-font-size: 18px;
+    -fx-padding: 10px;
+}
+

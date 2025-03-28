@@ -1,0 +1,8 @@
+-Dfile.encoding=UTF-8
+-Dstdout.encoding=UTF-8
+-Dstderr.encoding=UTF-8
+-p
+/Users/minfo/Documents/eclipse_p/GESTION_MAGASIN/bin:/Users/minfo/Downloads/javafx-sdk-21.0.2/lib/javafx.fxml.jar:/Users/minfo/Downloads/javafx-sdk-21.0.2/lib/javafx-swt.jar:/Users/minfo/Downloads/javafx-sdk-21.0.2/lib/javafx.media.jar:/Users/minfo/Downloads/javafx-sdk-21.0.2/lib/javafx.graphics.jar:/Users/minfo/Downloads/javafx-sdk-21.0.2/lib/javafx.swing.jar:/Users/minfo/Downloads/javafx-sdk-21.0.2/lib/javafx.web.jar:/Users/minfo/Downloads/javafx-sdk-21.0.2/lib/javafx.controls.jar:/Users/minfo/Downloads/javafx-sdk-21.0.2/lib/javafx.base.jar:/Users/minfo/.p2/pool/plugins/org.eclipse.fx.ide.css.jfx8_3.8.0.202204150904.jar:/Users/minfo/Documents/S2/JAVA/TPs/itextpdf-5.1.0.jar:/Users/minfo/Downloads/mysql-connector-j-8.2.0/mysql-connector-j-8.2.0.jar
+-XX:+ShowCodeDetailsInExceptionMessages
+-m
+GESTION_MAGASIN/application.MainWindow
